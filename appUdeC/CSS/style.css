@@ -1,0 +1,25 @@
+.bg-dark {
+    background-color: black!important
+}
+
+.nav-item {
+    text-align: center
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    height: 70px;
+    background-color: black;
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+}
+
+.redes {
+    display: flex;
+    justify-content: space-around;
+}
