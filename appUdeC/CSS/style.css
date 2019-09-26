@@ -3,7 +3,13 @@
 }
 
 .nav-item {
-    text-align: center
+    text-align: center;
+    background-color: #CC6633;
+    border: 1px solid;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: black;
 }
 
 .icons {
@@ -22,4 +28,72 @@ footer {
 .redes {
     display: flex;
     justify-content: space-around;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* width: 100vh; */
+    background-image: url(../IMG/fondo.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+
+#login {
+    width: 300px;
+    height: 100px;
+    background-color: #CC6633;
+}
+
+.down {
+    position: relative;
+    animation: moveDown 2s ease-in-out infinite;
+}
+
+@keyframes moveDown{
+    0%{
+        top: 0;
+    }
+    50%{
+        top: 50px;
+    }
+    100%{
+        top: 0;
+    }
+}
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: black;
+}
+
+h1 {
+    text-align: center;
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*align-items: center; */
+    height: 100vh;
+    background: white;
+}
+
+.cuadricula {
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-Text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
