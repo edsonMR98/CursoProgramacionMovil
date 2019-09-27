@@ -2,6 +2,10 @@
     background-color: black!important
 }
 
+nav {
+    margin: 0!important;
+}
+
 .nav-item {
     text-align: center;
     background-color: #CC6633;
@@ -19,6 +23,7 @@
 
 footer {
     height: 70px;
+    margin: 0!important;
     background-color: black;
     display: flex;
     align-content: center;
@@ -87,11 +92,6 @@ h1, h3, h6 {
     background: white;
 }
 
-.cuadricula {
-    display: flex;
-    justify-content: space-around;
-}
-
 .img-Text {
     display: flex;
     flex-direction: column;
@@ -100,4 +100,10 @@ h1, h3, h6 {
 
 .img-Text img, #intro img {
     width: 150px;
+}
+
+@media (max-width: 767px) {
+    #about {
+      height: 100%;
+    }
 }
