@@ -1,0 +1,39 @@
+#cubo, #cubo2 {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    animation: moveCubo 3s ease-in-out infinite;
+}
+
+#cubo {
+    animation: moveCubo 3s ease-in-out infinite;
+}
+
+#cubo2 {
+    animation: moveCubo2 3s ease-in-out infinite;
+}
+
+@keyframes moveCubo{
+    0%{
+        border-radius: 0;
+    }
+    50%{
+        border-radius: 50%;
+    }
+    100%{
+        border-radius: 0%;
+    }
+}
+
+@keyframes moveCubo2{
+    0%{
+        left: 0;
+    }
+    50%{
+        left: 60px;
+    }
+    100%{
+        left: 0;
+    }
+}
