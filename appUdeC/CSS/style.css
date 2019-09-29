@@ -16,6 +16,11 @@ nav {
     color: black;
 }
 
+a.search {
+    display: flex;
+    align-self: center;
+}
+
 .icons {
     display: flex;
     justify-content: space-around;
@@ -103,7 +108,13 @@ h1, h3, h6 {
 }
 
 @media (max-width: 767px) {
-    #about {
+    #about, #main, #intro {
       height: 100%;
+    }
+}
+
+@media (min-width: 1300px) {
+    a.search, button.navbar-toggler {
+        width: 10%
     }
 }
