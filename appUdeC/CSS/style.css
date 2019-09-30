@@ -134,6 +134,12 @@ p {
     width: 75px;
 }
 
+.pdf-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media (max-width: 600px) {
     #about, #main, #intro, .mein {
       height: 100%;
