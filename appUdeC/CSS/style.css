@@ -81,7 +81,7 @@ footer {
     }
 }
 
-#intro {
+#intro, .sec {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -130,7 +130,7 @@ p {
     background: white;
 }
 
-.mein img.back {
+.mein img.back, .sec img.back {
     width: 75px;
 }
 
@@ -146,7 +146,7 @@ p {
 }
 
 @media (max-width: 600px) {
-    #about, #main, #intro, .mein {
+    #about, #main, #intro, .mein, .sec {
       height: 100%;
     }
 }
@@ -194,7 +194,7 @@ p {
         width: 20%;
     }
 
-    .mein a img {
+    .mein a img, .sec a img {
         width: 100%!important;
     }
 
