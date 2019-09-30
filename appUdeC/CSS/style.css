@@ -145,9 +145,27 @@ p {
     flex-direction: column;
 }
 
+table {
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+thead {
+    background-color: #CC6633;
+    color: black;
+}
+
+td {
+    color: white;
+}
+
 @media (max-width: 600px) {
     #about, #main, #intro, .mein, .sec {
       height: 100%;
+    }
+
+    table {
+        font-size: 0.75rem;
     }
 }
 
@@ -200,5 +218,9 @@ p {
 
     .imach {
         width: 15%;
+    }
+
+    table {
+        font-size: 2.75rem;
     }
 }
