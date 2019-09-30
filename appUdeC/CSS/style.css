@@ -159,6 +159,11 @@ td {
     color: white;
 }
 
+td.state {
+    display: flex;
+    justify-content: space-around;
+}
+
 @media (max-width: 600px) {
     #about, #main, #intro, .mein, .sec {
       height: 100%;
