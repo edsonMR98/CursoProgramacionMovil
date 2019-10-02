@@ -164,6 +164,11 @@ td.state {
     justify-content: space-around;
 }
 
+label {
+    text-align: right;
+    color: white;
+}
+
 @media (max-width: 600px) {
     #about, #main, #intro, .mein, .sec {
       height: 100%;
@@ -227,5 +232,9 @@ td.state {
 
     table {
         font-size: 2.75rem;
+    }
+
+    label {
+        font-size: xx-large!important;
     }
 }
